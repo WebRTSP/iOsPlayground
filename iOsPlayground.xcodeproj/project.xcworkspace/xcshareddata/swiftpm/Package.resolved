@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "libwebrtc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/WebRTSP/libWebRTC",
+      "state" : {
+        "branch" : "m102-patched-1",
+        "revision" : "5003aa3ef899ee2174dd953e927e473d67bbdd6a"
+      }
+    }
+  ],
+  "version" : 2
+}

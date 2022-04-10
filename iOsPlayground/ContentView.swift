@@ -1,14 +1,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var controller: Controller
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        WebRTCView(controller: controller)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let controller = Controller()
+        ContentView(controller: controller)
     }
 }

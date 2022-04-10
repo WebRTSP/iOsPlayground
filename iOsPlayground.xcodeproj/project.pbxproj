@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1225FF6828071F5B0008A565 /* WebRTSPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1225FF6728071F5B0008A565 /* WebRTSPClient.swift */; };
+		122C7D83281448D5006AF6D4 /* WebRTSPClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C7D82281448D5006AF6D4 /* WebRTSPClientTest.swift */; };
+		122C7D85281450F8006AF6D4 /* WebRTSPActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C7D84281450F8006AF6D4 /* WebRTSPActor.swift */; };
+		122C7D872815A218006AF6D4 /* Serialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C7D862815A218006AF6D4 /* Serialize.swift */; };
+		123481C028278B720043AF25 /* WebRTCPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123481BF28278B720043AF25 /* WebRTCPeer.swift */; };
+		123481C528278E780043AF25 /* GoogleWebRTCPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123481C428278E780043AF25 /* GoogleWebRTCPeer.swift */; };
+		12379D4227ECC2480042A3EC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379D3727ECC2480042A3EC /* Protocol.swift */; };
+		12379D4427ECC2480042A3EC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379D3927ECC2480042A3EC /* Message.swift */; };
+		12379D4727ECC2480042A3EC /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379D3C27ECC2480042A3EC /* Method.swift */; };
+		1297247927ECCB5200D5F83C /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1297247827ECCB5200D5F83C /* StatusCode.swift */; };
+		1297247B27ECCC8400D5F83C /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1297247A27ECCC8400D5F83C /* Token.swift */; };
+		12A87E0927F0413800EFA6C8 /* WebRTSPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A87E0827F0413800EFA6C8 /* WebRTSPParser.swift */; };
+		12ABF05C284329E600510A59 /* WebRTSPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ABF05B284329E600510A59 /* WebRTSPSession.swift */; };
+		12D7868028311372009952F3 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D7867F28311372009952F3 /* Controller.swift */; };
+		12D7868228315046009952F3 /* WebRTCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D7868128315046009952F3 /* WebRTCView.swift */; };
+		12EBCE38284B718D00320C7A /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 12EBCE37284B718D00320C7A /* WebRTC */; };
 		12F3A16227DDD69E00A2DD84 /* iOsPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3A16127DDD69E00A2DD84 /* iOsPlaygroundApp.swift */; };
 		12F3A16427DDD69E00A2DD84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3A16327DDD69E00A2DD84 /* ContentView.swift */; };
 		12F3A16627DDD69F00A2DD84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F3A16527DDD69F00A2DD84 /* Assets.xcassets */; };
 		12F3A16927DDD69F00A2DD84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F3A16827DDD69F00A2DD84 /* Preview Assets.xcassets */; };
-		12F3A17327DDD69F00A2DD84 /* iOsPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3A17227DDD69F00A2DD84 /* iOsPlaygroundTests.swift */; };
-		12F3A17D27DDD69F00A2DD84 /* iOsPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3A17C27DDD69F00A2DD84 /* iOsPlaygroundUITests.swift */; };
-		12F3A17F27DDD69F00A2DD84 /* iOsPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3A17E27DDD69F00A2DD84 /* iOsPlaygroundUITestsLaunchTests.swift */; };
+		12F3A17327DDD69F00A2DD84 /* ParseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3A17227DDD69F00A2DD84 /* ParseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +38,32 @@
 			remoteGlobalIDString = 12F3A15D27DDD69E00A2DD84;
 			remoteInfo = iOsPlayground;
 		};
-		12F3A17927DDD69F00A2DD84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12F3A15627DDD69E00A2DD84 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12F3A15D27DDD69E00A2DD84;
-			remoteInfo = iOsPlayground;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1225FF6728071F5B0008A565 /* WebRTSPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTSPClient.swift; sourceTree = "<group>"; };
+		122C7D82281448D5006AF6D4 /* WebRTSPClientTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTSPClientTest.swift; sourceTree = "<group>"; };
+		122C7D84281450F8006AF6D4 /* WebRTSPActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTSPActor.swift; sourceTree = "<group>"; };
+		122C7D862815A218006AF6D4 /* Serialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serialize.swift; sourceTree = "<group>"; };
+		123481BF28278B720043AF25 /* WebRTCPeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCPeer.swift; sourceTree = "<group>"; };
+		123481C428278E780043AF25 /* GoogleWebRTCPeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleWebRTCPeer.swift; sourceTree = "<group>"; };
+		12379D3727ECC2480042A3EC /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		12379D3927ECC2480042A3EC /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		12379D3C27ECC2480042A3EC /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		1297247827ECCB5200D5F83C /* StatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCode.swift; sourceTree = "<group>"; };
+		1297247A27ECCC8400D5F83C /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		12A87E0827F0413800EFA6C8 /* WebRTSPParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTSPParser.swift; sourceTree = "<group>"; };
+		12ABF05B284329E600510A59 /* WebRTSPSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTSPSession.swift; sourceTree = "<group>"; };
+		12C6A6AD284B25D600BB1A6A /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebRTC.xcframework; path = ../libWebRTC/iOs/debug/WebRTC.xcframework; sourceTree = "<group>"; };
+		12D7867F28311372009952F3 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		12D7868128315046009952F3 /* WebRTCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCView.swift; sourceTree = "<group>"; };
 		12F3A15E27DDD69E00A2DD84 /* iOsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOsPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F3A16127DDD69E00A2DD84 /* iOsPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOsPlaygroundApp.swift; sourceTree = "<group>"; };
 		12F3A16327DDD69E00A2DD84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12F3A16527DDD69F00A2DD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F3A16827DDD69F00A2DD84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12F3A16E27DDD69F00A2DD84 /* iOsPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOsPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12F3A17227DDD69F00A2DD84 /* iOsPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOsPlaygroundTests.swift; sourceTree = "<group>"; };
-		12F3A17827DDD69F00A2DD84 /* iOsPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOsPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12F3A17C27DDD69F00A2DD84 /* iOsPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOsPlaygroundUITests.swift; sourceTree = "<group>"; };
-		12F3A17E27DDD69F00A2DD84 /* iOsPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOsPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12F3A17227DDD69F00A2DD84 /* ParseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EBCE38284B718D00320C7A /* WebRTC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,23 +82,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12F3A17527DDD69F00A2DD84 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12379D3327ECC2480042A3EC /* WebRTSP */ = {
+			isa = PBXGroup;
+			children = (
+				1297247827ECCB5200D5F83C /* StatusCode.swift */,
+				12379D3727ECC2480042A3EC /* Protocol.swift */,
+				12379D3927ECC2480042A3EC /* Message.swift */,
+				12379D3C27ECC2480042A3EC /* Method.swift */,
+				1297247A27ECCC8400D5F83C /* Token.swift */,
+				12A87E0827F0413800EFA6C8 /* WebRTSPParser.swift */,
+				123481BF28278B720043AF25 /* WebRTCPeer.swift */,
+				123481C428278E780043AF25 /* GoogleWebRTCPeer.swift */,
+				1225FF6728071F5B0008A565 /* WebRTSPClient.swift */,
+				122C7D84281450F8006AF6D4 /* WebRTSPActor.swift */,
+				122C7D862815A218006AF6D4 /* Serialize.swift */,
+			);
+			path = WebRTSP;
+			sourceTree = "<group>";
+		};
+		12C6A6AC284B25D600BB1A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C6A6AD284B25D600BB1A6A /* WebRTC.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		12F3A15527DDD69E00A2DD84 = {
 			isa = PBXGroup;
 			children = (
 				12F3A16027DDD69E00A2DD84 /* iOsPlayground */,
 				12F3A17127DDD69F00A2DD84 /* iOsPlaygroundTests */,
-				12F3A17B27DDD69F00A2DD84 /* iOsPlaygroundUITests */,
 				12F3A15F27DDD69E00A2DD84 /* Products */,
+				12C6A6AC284B25D600BB1A6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +126,6 @@
 			children = (
 				12F3A15E27DDD69E00A2DD84 /* iOsPlayground.app */,
 				12F3A16E27DDD69F00A2DD84 /* iOsPlaygroundTests.xctest */,
-				12F3A17827DDD69F00A2DD84 /* iOsPlaygroundUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +133,11 @@
 		12F3A16027DDD69E00A2DD84 /* iOsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				12379D3327ECC2480042A3EC /* WebRTSP */,
 				12F3A16127DDD69E00A2DD84 /* iOsPlaygroundApp.swift */,
+				12ABF05B284329E600510A59 /* WebRTSPSession.swift */,
+				12D7867F28311372009952F3 /* Controller.swift */,
+				12D7868128315046009952F3 /* WebRTCView.swift */,
 				12F3A16327DDD69E00A2DD84 /* ContentView.swift */,
 				12F3A16527DDD69F00A2DD84 /* Assets.xcassets */,
 				12F3A16727DDD69F00A2DD84 /* Preview Content */,
@@ -113,18 +156,10 @@
 		12F3A17127DDD69F00A2DD84 /* iOsPlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
-				12F3A17227DDD69F00A2DD84 /* iOsPlaygroundTests.swift */,
+				12F3A17227DDD69F00A2DD84 /* ParseTest.swift */,
+				122C7D82281448D5006AF6D4 /* WebRTSPClientTest.swift */,
 			);
 			path = iOsPlaygroundTests;
-			sourceTree = "<group>";
-		};
-		12F3A17B27DDD69F00A2DD84 /* iOsPlaygroundUITests */ = {
-			isa = PBXGroup;
-			children = (
-				12F3A17C27DDD69F00A2DD84 /* iOsPlaygroundUITests.swift */,
-				12F3A17E27DDD69F00A2DD84 /* iOsPlaygroundUITestsLaunchTests.swift */,
-			);
-			path = iOsPlaygroundUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +178,9 @@
 			dependencies = (
 			);
 			name = iOsPlayground;
+			packageProductDependencies = (
+				12EBCE37284B718D00320C7A /* WebRTC */,
+			);
 			productName = iOsPlayground;
 			productReference = 12F3A15E27DDD69E00A2DD84 /* iOsPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +203,6 @@
 			productReference = 12F3A16E27DDD69F00A2DD84 /* iOsPlaygroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		12F3A17727DDD69F00A2DD84 /* iOsPlaygroundUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12F3A18827DDD69F00A2DD84 /* Build configuration list for PBXNativeTarget "iOsPlaygroundUITests" */;
-			buildPhases = (
-				12F3A17427DDD69F00A2DD84 /* Sources */,
-				12F3A17527DDD69F00A2DD84 /* Frameworks */,
-				12F3A17627DDD69F00A2DD84 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12F3A17A27DDD69F00A2DD84 /* PBXTargetDependency */,
-			);
-			name = iOsPlaygroundUITests;
-			productName = iOsPlaygroundUITests;
-			productReference = 12F3A17827DDD69F00A2DD84 /* iOsPlaygroundUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +220,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 12F3A15D27DDD69E00A2DD84;
 					};
-					12F3A17727DDD69F00A2DD84 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 12F3A15D27DDD69E00A2DD84;
-					};
 				};
 			};
 			buildConfigurationList = 12F3A15927DDD69E00A2DD84 /* Build configuration list for PBXProject "iOsPlayground" */;
@@ -215,13 +231,15 @@
 				Base,
 			);
 			mainGroup = 12F3A15527DDD69E00A2DD84;
+			packageReferences = (
+				12EBCE36284B718D00320C7A /* XCRemoteSwiftPackageReference "libWebRTC" */,
+			);
 			productRefGroup = 12F3A15F27DDD69E00A2DD84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				12F3A15D27DDD69E00A2DD84 /* iOsPlayground */,
 				12F3A16D27DDD69F00A2DD84 /* iOsPlaygroundTests */,
-				12F3A17727DDD69F00A2DD84 /* iOsPlaygroundUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +261,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12F3A17627DDD69F00A2DD84 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +268,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12379D4727ECC2480042A3EC /* Method.swift in Sources */,
+				122C7D85281450F8006AF6D4 /* WebRTSPActor.swift in Sources */,
+				1297247B27ECCC8400D5F83C /* Token.swift in Sources */,
+				1225FF6828071F5B0008A565 /* WebRTSPClient.swift in Sources */,
 				12F3A16427DDD69E00A2DD84 /* ContentView.swift in Sources */,
+				1297247927ECCB5200D5F83C /* StatusCode.swift in Sources */,
+				123481C028278B720043AF25 /* WebRTCPeer.swift in Sources */,
+				122C7D872815A218006AF6D4 /* Serialize.swift in Sources */,
+				123481C528278E780043AF25 /* GoogleWebRTCPeer.swift in Sources */,
+				12A87E0927F0413800EFA6C8 /* WebRTSPParser.swift in Sources */,
+				12ABF05C284329E600510A59 /* WebRTSPSession.swift in Sources */,
+				12379D4427ECC2480042A3EC /* Message.swift in Sources */,
 				12F3A16227DDD69E00A2DD84 /* iOsPlaygroundApp.swift in Sources */,
+				12379D4227ECC2480042A3EC /* Protocol.swift in Sources */,
+				12D7868228315046009952F3 /* WebRTCView.swift in Sources */,
+				12D7868028311372009952F3 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F3A17327DDD69F00A2DD84 /* iOsPlaygroundTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12F3A17427DDD69F00A2DD84 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12F3A17D27DDD69F00A2DD84 /* iOsPlaygroundUITests.swift in Sources */,
-				12F3A17F27DDD69F00A2DD84 /* iOsPlaygroundUITestsLaunchTests.swift in Sources */,
+				122C7D83281448D5006AF6D4 /* WebRTSPClientTest.swift in Sources */,
+				12F3A17327DDD69F00A2DD84 /* ParseTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +303,6 @@
 			isa = PBXTargetDependency;
 			target = 12F3A15D27DDD69E00A2DD84 /* iOsPlayground */;
 			targetProxy = 12F3A16F27DDD69F00A2DD84 /* PBXContainerItemProxy */;
-		};
-		12F3A17A27DDD69F00A2DD84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12F3A15D27DDD69E00A2DD84 /* iOsPlayground */;
-			targetProxy = 12F3A17927DDD69F00A2DD84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -330,6 +342,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -391,6 +404,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -419,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOsPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = 565QCWZQGR;
+				DEVELOPMENT_TEAM = 748RV5BGUB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,11 +446,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.webrtsp.iOsPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.webrtsp.iOsPlayground-zvycqc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,7 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOsPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = 565QCWZQGR;
+				DEVELOPMENT_TEAM = 748RV5BGUB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -461,11 +475,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.webrtsp.iOsPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.webrtsp.iOsPlayground-zvycqc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,42 +523,6 @@
 			};
 			name = Release;
 		};
-		12F3A18927DDD69F00A2DD84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 565QCWZQGR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.webrtsp.iOsPlaygroundUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOsPlayground;
-			};
-			name = Debug;
-		};
-		12F3A18A27DDD69F00A2DD84 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 565QCWZQGR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.webrtsp.iOsPlaygroundUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOsPlayground;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,16 +553,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12F3A18827DDD69F00A2DD84 /* Build configuration list for PBXNativeTarget "iOsPlaygroundUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12F3A18927DDD69F00A2DD84 /* Debug */,
-				12F3A18A27DDD69F00A2DD84 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12EBCE36284B718D00320C7A /* XCRemoteSwiftPackageReference "libWebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WebRTSP/libWebRTC";
+			requirement = {
+				branch = "m102-patched-1";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12EBCE37284B718D00320C7A /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12EBCE36284B718D00320C7A /* XCRemoteSwiftPackageReference "libWebRTC" */;
+			productName = WebRTC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12F3A15627DDD69E00A2DD84 /* Project object */;
 }
